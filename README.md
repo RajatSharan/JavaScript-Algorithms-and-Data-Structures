@@ -1,5 +1,3 @@
-# JavaScript-Algorithms-and-Data-Structures
-
 # JavaScript Algorithms and Data Structures
 
 This repository contains a collection of algorithms and data structures implemented in JavaScript. It is designed to help developers and students learn and practice fundamental concepts of computer science.
