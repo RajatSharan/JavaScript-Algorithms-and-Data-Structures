@@ -20,3 +20,15 @@ function add2(n){
 }
 
 console.log(add2(5))
+
+
+function rev(str)
+{
+
+    return str.split('').reverse().join('')
+
+}
+
+console.log(rev("RAJAT"))
+
+
