@@ -2,6 +2,8 @@
 
 function reverse(str){
 
-    if(str.length==0) return 1
+    if(str.length==0) return ''
     return reverse(str.slice(1))+str[0]
 }
+
+console.log(reverse('rajat'))
