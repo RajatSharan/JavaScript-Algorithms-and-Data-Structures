@@ -16,45 +16,53 @@
             white-space: nowrap;
             animation: typing 3s steps(40, end) infinite alternate;
         }
+        .topic-box {
+            background: #2d3748;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .topic-box h3 {
+            color: #38b2ac;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        .topic-box p {
+            color: #e2e8f0;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body class="bg-gray-900 text-white">
     <div class="container mx-auto px-6 py-10 text-center">
-        <h1 class="text-4xl font-bold text-blue-400">🚀 JavaScript Algorithms & Data Structures</h1>
+        <h1 class="text-4xl font-bold text-blue-400 mb-6">🚀 JavaScript Algorithms & Data Structures Mastery</h1>
         <p class="mt-4 text-gray-300 typewriter"><span>Completed Colt Steele's Masterclass</span></p>
-        
+
         <div class="mt-8">
             <a href="https://github.com/RajatSharan/JavaScript-Algorithms-and-Data-Structures" class="bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg text-lg hover:bg-blue-600 transition">
                 View My GitHub Repo
             </a>
         </div>
 
-        <div class="mt-12 grid md:grid-cols-3 gap-6">
-            <div class="p-6 bg-gray-800 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-green-400">✅ Completed</h3>
-                <p class="text-gray-300 mt-2">Recursion & Memoization</p>
+        <div class="mt-12 grid md:grid-cols-2 gap-8">
+            <div class="topic-box">
+                <h3>📌 Covered Topics</h3>
+                <p>- Introduction to JavaScript and Setup</p>
+                <p>- Data Structures: Arrays, Linked Lists, Hash Tables</p>
+                <p>- Algorithm Basics: Big-O Notation, Sorting Algorithms (Bubble, Merge, Quick Sort)</p>
+                <p>- Recursion & Memoization</p>
+                <p>- Searching Algorithms: Binary Search, Breadth-First Search (BFS), Depth-First Search (DFS)</p>
+                <p>- Dynamic Programming and Greedy Algorithms</p>
+                <p>- Graph Algorithms: Dijkstra’s Algorithm, A* Search</p>
+                <p>- And more...</p>
             </div>
-            <div class="p-6 bg-gray-800 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-yellow-400">✅ Completed</h3>
-                <p class="text-gray-300 mt-2">Big-O, Arrays, Hash Tables</p>
-                <div class="w-full bg-gray-700 rounded-full h-3 mt-2">
-                    <div class="bg-green-500 h-3 rounded-full" style="width: 100%;"></div>
-                </div>
-            </div>
-            <div class="p-6 bg-gray-800 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-400">🔜 Upcoming</h3>
-                <p class="text-gray-300 mt-2">Graph Algorithms</p>
+            
+            <div class="topic-box">
+                <h3>🎨 Interactive Example</h3>
+                <iframe height="300" style="width: 100%;" scrolling="no" title="JS Example" src="https://rajatsharan.github.io/JavaScript-Algorithms-and-Data-Structures/" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
             </div>
         </div>
-        
-        <div class="mt-12">
-            <h2 class="text-2xl font-bold text-purple-400">🎨 CodePen Example</h2>
-            <iframe height="300" style="width: 100%;" scrolling="no" title="JS Example" src="https://rajatsharan.github.io/JavaScript-Algorithms-and-Data-Structures/" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
-        </div>
-
-        <footer class="mt-10 text-gray-500">
-            Follow my journey on <a href="https://github.com/RajatSharan/JavaScript-Algorithms-and-Data-Structures" class="text-blue-400 hover:underline">GitHub</a>
-        </footer>
     </div>
 </body>
 </html>
