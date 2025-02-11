@@ -16,7 +16,7 @@ class SinglyLinkList{                       //creating a class SinglyLinkList
         this.head=null          //initially head is null
         this.tail=null      //initially tail is null
         this.length=0           //initially length is 0
-}
+    }   
 
 push(val){                          //pushing the value in the list
 
